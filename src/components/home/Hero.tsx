@@ -31,7 +31,6 @@ const Hero: React.FC = () => {
                 <div className="rounded-md shadow">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto">
                     <span>Shop Now</span>
-                    <ChevronRight className="ml-2 -mr-1 h-5 w-5" />
                   </Button>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -60,7 +59,6 @@ const Hero: React.FC = () => {
                   </div>
                   <p className="mt-2 text-sm text-gray-500 text-center sm:text-left">Secure Shopping</p>
                 </div>
-                
               </div>
             </div>
           </div>
