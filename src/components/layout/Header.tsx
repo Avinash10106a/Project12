@@ -55,7 +55,7 @@ const Header: React.FC = () => {
               Categories
             </a>
             <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors px-3 py-2 text-sm font-medium">
-              Rewards
+              Wallet
             </a>
           </nav>
 
