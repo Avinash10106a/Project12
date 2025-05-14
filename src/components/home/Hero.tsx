@@ -1,6 +1,8 @@
 import React from 'react';
-import { ChevronRight, Gift, ShieldCheck, Truck } from 'lucide-react';
+import {Gift, ShieldCheck, Truck } from 'lucide-react';
 import Button from '../ui/Button';
+import { FAQ } from '../section/FAQ';
+
 
 const Hero: React.FC = () => {
   return (
@@ -31,6 +33,7 @@ const Hero: React.FC = () => {
                 <div className="rounded-md shadow">
                   <Button variant="primary" size="lg" className="w-full sm:w-auto">
                     <span>Shop Now</span>
+
                   </Button>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">

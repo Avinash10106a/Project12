@@ -3,6 +3,9 @@ import Hero from '../components/home/Hero';
 import ProductGrid from '../components/products/ProductGrid';
 import RewardsSection from '../components/home/RewardsSection';
 import { products } from '../data/products';
+import { FAQ } from '../components/section/FAQ';
+import { Testimonials } from '../components/section/Testimonials';
+
 
 const HomePage: React.FC = () => {
   // Get featured products for display
@@ -28,6 +31,10 @@ const HomePage: React.FC = () => {
         
         <ProductGrid products={products} />
       </div>
+
+        <Testimonials />
+
+        <FAQ />
     </div>
   );
 };
