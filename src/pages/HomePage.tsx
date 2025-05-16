@@ -5,6 +5,7 @@ import RewardsSection from '../components/home/RewardsSection';
 import { products } from '../data/products';
 import { FAQ } from '../components/section/FAQ';
 import { Testimonials } from '../components/section/Testimonials';
+import Footer from '../components/layout/Footer';
 
 
 const HomePage: React.FC = () => {
@@ -35,6 +36,8 @@ const HomePage: React.FC = () => {
         <Testimonials />
 
         <FAQ />
+
+        <Footer />
     </div>
   );
 };

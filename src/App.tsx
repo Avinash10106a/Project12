@@ -4,7 +4,6 @@ import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
 import TopBanner from './components/layout/TopBanner';
 import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
@@ -25,7 +24,6 @@ function App() {
                 <Route path="/signup" element={<SignupPage />} />
               </Routes>
             </main>
-            <Footer />
           </div>
         </CartProvider>
       </AuthProvider>
